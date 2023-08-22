@@ -5,7 +5,6 @@ build:
     build:
       - npm install -g pnpm
       - pnpm install
-      - pnpm build
 run:
   command: pnpm start
   network:
