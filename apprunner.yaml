@@ -3,7 +3,7 @@ runtime: nodejs16
 build:
   commands:
     build:
-      - npm install pnpm
+      - npm install -g pnpm
       - which pnpm
       - pnpm install
 run:
