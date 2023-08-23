@@ -3,9 +3,8 @@ runtime: nodejs16
 build:
   commands:
     build:
-      - npm install -g pnpm
-      - ENV PNPM_HOME="/pnpm"
-      - ENV PATH="$PNPM_HOME:$PATH"
+      - npm install pnpm
+      - which pnpm
       - pnpm install
 run:
   command: pnpm start
