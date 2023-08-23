@@ -8,4 +8,4 @@ build:
 run:
   command: pnpm start
   network:
-    port: 3000
+    port: 8080
